@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Important Note
+
+This Project uses flickr API with a free public api_key. Unfortunately, this key gets updated daily, so if you want to run this app in your browser, please first get a new api_key from any api request made on flickr public api endpoints. The key is present in the url, eg. - [https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=9e8ab5d804597407f81a92b6d9936099&text=mountains&format=json&nojsoncallback=1]. Take the string and replace the api_key variable's value, declared on line 22 on the App.js file. Now you are ready to run the webapp.
+
 ## Available Scripts
 
 In the project directory, you can run:
