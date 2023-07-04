@@ -19,7 +19,7 @@ function App() {
   // Window dimensions to make Box container of Photos responsive..
   const { windowHeight, windowWidth } = useWindiwDimensions();
   const BASE_URL = "https://www.flickr.com/services/rest/?method=flickr.photos";
-  const API_KEY = "57114350a11fd690050f0b0a81d1b8a2";
+  const API_KEY = "7cce000c4217c350639a37c943e93a59";
   const END_URL = "format=json&nojsoncallback=1";
   //State for Image shown in Modal..
   const [displayImage, setDisplayImage] = useState({});
